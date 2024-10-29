@@ -9,7 +9,7 @@ public class MsgItemVATReader extends MsgReader{
 
     @Override
     public String readFromKeyboard( Scanner theScanner ) {
-        itsPrompt.prompt("Type in the price of your item: ");
+        itsPrompt.prompt("Type in the VAT of your item: ");
 
         return String.valueOf(theScanner.nextDouble());
     }
