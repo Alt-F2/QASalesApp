@@ -31,8 +31,6 @@ public class App {
         while(true) {
             try {
                     if(!asked) {
-                        System.out.println("Type in the price of your item: ");
-
                         item = input.nextLine();
                         itemPrice += Double.parseDouble(item);
 
