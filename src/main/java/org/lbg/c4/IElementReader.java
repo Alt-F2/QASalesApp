@@ -1,7 +1,7 @@
 package org.lbg.c4;
 
-import java.io.InputStream;
+import java.util.Scanner;
 
 public interface IElementReader {
-    String readFromKeyboard( InputStream is );
+    String readFromKeyboard(Scanner is );
 }
